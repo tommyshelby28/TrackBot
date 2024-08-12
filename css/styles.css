@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1a1a2e; /* Color de fondo */
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* No repite la imagen */
+    color: #e0e0e0; /* Color del texto */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    flex-direction: column;
+    min-height: 100vh; /* Altura mínima completa de la ventana */
+    width: 100vw; /* Ancho completo de la ventana */
+    overflow-y: auto; /* Permite el desplazamiento vertical */
+}
+
+.header-name {
+    text-align: center;
+    padding: 20px;
+    color: #ffffff; /* Color del texto */
+    margin-bottom: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos horizontalmente */
+    width: 100%;
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 0 15px; /* Espacio a los lados del contenedor */
+}
+
+.button-copy {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 5px; /* Espacio entre los elementos */
+    margin-bottom: 5px; /* Espacio debajo del grupo de botones */
+}
+
+.input2 {
+    padding: 12px 15px;
+    border: 2px solid #333; /* Borde oscuro */
+    border-radius: 8px;
+    font-size: 16px;
+    color: #e0e0e0; /* Color del texto dentro del input */
+    background-color: #1e1e1e; /* Fondo oscuro para el input */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+    user-select: none; /* Previene la selección de texto dentro del input */
+}
+
+.input2:focus {
+    border-color: #bb86fc; /* Color del borde al enfocar */
+    box-shadow: 0 0 5px rgba(187, 134, 252, 0.3); /* Sombra de enfoque */
+    outline: none; /* Elimina el borde de enfoque predeterminado del navegador */
+}
+
+.input2::placeholder {
+    color: #757575; /* Color del texto del placeholder */
+}
+
+button, .button-alias, .btn {
+    padding: 12px 15px;
+    margin: 10px; /* Margen alrededor del botón */
+    border: 2px solid #333; /* Borde oscuro */
+    border-radius: 8px;
+    font-size: 16px;
+    color: #e0e0e0; /* Color del texto dentro del botón */
+    background-color: #1e1e1e; /* Fondo oscuro para el botón */
+    cursor: pointer;
+    transition: border-color 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+    outline: none; /* Elimina el borde de enfoque predeterminado del navegador */
+    user-select: none; /* Previene la selección de texto dentro del botón */
+}
+
+button:hover, .button-alias:hover, .btn:hover {
+    border-color: #bb86fc; /* Color del borde al pasar el mouse */
+}
+
+button:focus, .button-alias:focus, .btn:focus {
+    border-color: #bb86fc; /* Color del borde al enfocar */
+    box-shadow: 0 0 5px rgba(187, 134, 252, 0.3); /* Sombra de enfoque */
+}
+
+#result {
+    color: #e0e0e0; /* Color del texto del resultado */
+    font-size: 18px;
+    margin-top: 20px; /* Espacio encima del resultado */
+    text-align: center;
+}
+
+.space-one {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.div-input_one, .div-two, .div-p_one {
+    margin-bottom: 20px; /* Espacio debajo de cada div */
+}
