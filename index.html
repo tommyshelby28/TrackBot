@@ -25,7 +25,8 @@
             <button class="button-alias button3" id="porcentajeBoton">Porcentajes</button>
         </div>
         <div>
-            <input class="input2 button-alias" type="text" id="nameInput" placeholder="Ingresa tu nombre" autocomplete="off">
+            <input class="input2 button-alias" type="text" id="nameInput" placeholder="Ingresar nombre" autocomplete="off">
+            <button class="button-alias" onclick="copiarMensajeCbu()">CBU</button>
             <button class="button-alias button3" id="saludoBoton">Saludo</button>
             <button class="button-alias button3" id="mensajeNoDisponible">No Disponible</button>
         </div>
@@ -45,7 +46,24 @@
             </div>
         </div>
     </main>
+    <section>
+        <div class="container">
+            <h2>Actualizar CBU</h2>
+            <div class="input-group">
+                <input class="input2 button-alias" type="text" id="cuenta" placeholder="Nombre de la cuenta">
+            </div>
+            <div class="input-group">
+                <input class="input2 button-alias"  type="text" id="cbu" placeholder="Ingrese el CBU">
+            </div>
+            <div class="input-group">
+                <input class="input2 button-alias"  type="text" id="horario" placeholder="Horario vigente">
+            </div>
+            <div class="button-group">
+                <button class="button-alias" onclick="actualizarCBU()">Actualizar</button>
+            </div>
+            <div id="message" class="message"></div>
+        </div>
+    </section>
     <script src="js/index.js"></script>
 </body>
 </html>
-

@@ -93,13 +93,37 @@ button:focus, .button-alias:focus, .btn:focus {
 }
 
 .space-one {
-    margin: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 40px;
+    width: 100%;
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: auto;
 }
 
 .div-input_one, .div-two, .div-p_one {
-    margin-bottom: 20px; /* Espacio debajo de cada div */
+    margin-top: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos horizontalmente */
+    width: 100%;
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 0 15px; /* Espacio a los lados del contenedor */
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+h2 {
+    margin-bottom: 40px;
 }
